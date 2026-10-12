@@ -1,0 +1,11 @@
+# Copy this file to terraform.tfvars and adjust as needed.
+# terraform.tfvars is gitignored — never commit it.
+
+aws_region = "us-east-1"
+
+# project_name           = "vpc-lab"
+# vpc_cidr                = "10.0.0.0/16"
+# create_nat_gateway      = true   # NOT Free-Tier eligible — see README "Cost considerations"
+# single_nat_gateway      = true   # cheaper; set false for one NAT Gateway per AZ
+# create_demo_instances   = true
+# instance_type           = "t3.micro"
